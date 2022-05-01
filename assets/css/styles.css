@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Square+Peg&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,13 @@
 }
 
 body {
-    font-family: 'Square Peg', cursive;
+    font-family:'Courier New', Courier, monospace
     font-weight: 200;
     color:black;
+}
+
+#logo {
+    font-family: 'Ms Madi', cursive;
+    font-weight: 300;
+    color: black
 }
