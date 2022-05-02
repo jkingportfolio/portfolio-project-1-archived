@@ -14,6 +14,8 @@ body {
     color: rgb(220, 190, 25);
 }
 
+/* font sizing */
+
 /* headings and logo */
 
 h1, h2 {
@@ -76,7 +78,8 @@ a:hover {
     height:600px;
     width:100%;
     overflow:hidden;
-    position: relative;    
+    position: relative;
+      
 }
 
 
@@ -89,16 +92,16 @@ a:hover {
     }
 }
 
-#hero-image {
-    background: url("../images/hero-image.jpeg") no-repeat center center;
+.hero-image {
+    /*background: url("../images/hero-image.jpeg") no-repeat center center;*/
     display: block;
-    height:600px;
-    width:100%;
-    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    margin: auto;
 
-    /*animation-name: hero-zoom;
+    animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;*/
+    animation-fill-mode: forwards;
 }
 
 
