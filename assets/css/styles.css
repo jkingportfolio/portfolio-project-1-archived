@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 * {
     margin: 0;
@@ -12,8 +13,72 @@ body {
     color:black;
 }
 
+/* headings and logo */
+
+h1, h2 {
+    font-family: 'Ms Madi', cursive;
+}
+
 #logo {
     font-family: 'Ms Madi', cursive;
     font-weight: 300;
-    color: black
+    font-size: 60px;
+    color: black;
+    float: left;
+    padding-top: 10px;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+#logo a:hover {
+    color: red;
+}
+
+
+
+
+
+
+/* navigation links */
+
+#nav-menu {
+    font-family: /*'Anton', sans-serif*/ 'Ms Madi', cursive;
+    font-weight: 300;
+    color: black;  
+    font-size: 30px;  
+    list-style-type: none;
+    float: right; 
+    padding-top: 20px;   
+}
+
+#nav-menu a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#nav-menu li {
+    display:inline-block;
+    color: black;      
+}
+
+a, a:visited {
+    color: inherit;
+  }
+
+a:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+/* image carousel section */
+
+#img-carousel {
+    clear:both;
 }
