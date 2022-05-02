@@ -75,10 +75,41 @@ a:hover {
 
 
 
+/* hero image section */
+
+#hero-section {
+    height:600px;
+    width:100%;
+    overflow:hidden;
+    position: relative;    
+}
 
 
-/* image carousel section */
+/* who are we */
 
-#img-carousel {
-    clear:both;
+#who-are-we {
+    margin: auto;
+    text-align: center;
+}
+
+/* the experience */
+
+#the-experience {
+    margin: auto;
+    text-align: center;
+}
+
+/* come visit us */
+
+#visit-us {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* footer */
+
+footer {
+    margin: auto;
+    text-align: center;
 }
