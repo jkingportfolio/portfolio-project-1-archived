@@ -67,6 +67,19 @@ a, a:visited {
     color: inherit;
   }
 
+.neon-text {
+    color: rgb(255, 0, 0);
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+  }  
+
 
 a:hover {
     color: red;
@@ -83,9 +96,9 @@ header {
 /* hero image section */
 
 #hero-section {
-    height:600px;
-    width:100%;
-    overflow:hidden;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
     position: relative;      
 }
 
@@ -99,19 +112,18 @@ header {
     }
 }
 
-.hero-image {
-    /*background: url("../images/hero-image.jpeg") no-repeat center center;
+#hero-image {
+    /*background: url("../images/hero-image.jpeg") no-repeat center center;*/
     display: block;
-    height: 100%;
+    height: auto;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     box-sizing: border-box;
+    position: relative;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;*/
-
-    object-fit: fill;
+    animation-fill-mode: forwards;
 }
 
 
@@ -166,3 +178,4 @@ footer {
     text-align: center;
     box-sizing: border-box;
 }
+
