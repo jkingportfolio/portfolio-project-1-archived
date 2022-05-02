@@ -5,12 +5,13 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: black;
 }
 
 body {
     font-family:'Courier New', Courier, monospace;
     font-weight: 200;
-    color:black;
+    color: rgb(220, 190, 25);
 }
 
 /* headings and logo */
@@ -23,7 +24,7 @@ h1, h2 {
     font-family: 'Ms Madi', cursive;
     font-weight: 300;
     font-size: 60px;
-    color: black;
+    color: rgb(220, 190, 25);
     float: left;
     padding-top: 10px;
 }
@@ -46,7 +47,7 @@ h1, h2 {
 #nav-menu {
     font-family: /*'Anton', sans-serif*/ 'Ms Madi', cursive;
     font-weight: 300;
-    color: black;  
+    color: rgb(220, 190, 25);  
     font-size: 30px;  
     list-style-type: none;
     float: right; 
@@ -60,12 +61,13 @@ h1, h2 {
 
 #nav-menu li {
     display:inline-block;
-    color: black;      
+    color: rgb(220, 190, 25);      
 }
 
 a, a:visited {
     color: inherit;
   }
+
 
 a:hover {
     color: red;
@@ -82,6 +84,12 @@ a:hover {
     width:100%;
     overflow:hidden;
     position: relative;    
+}
+
+#hero-image {
+    background: url("../images/hero-image.jpeg") no-repeat center center;
+    height:600px;
+    width:100%;
 }
 
 
