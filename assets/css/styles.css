@@ -33,13 +33,6 @@ h1, h2 {
     text-decoration: none;
 }
 
-#logo a:hover {
-    color: red;
-}
-
-
-
-
 
 
 /* navigation links */
@@ -51,7 +44,7 @@ h1, h2 {
     font-size: 30px;  
     list-style-type: none;
     float: right; 
-    padding-top: 20px;   
+    padding-top: 25px;   
 }
 
 #nav-menu a {
@@ -86,11 +79,30 @@ a:hover {
     position: relative;    
 }
 
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 #hero-image {
     background: url("../images/hero-image.jpeg") no-repeat center center;
+    display: block;
     height:600px;
     width:100%;
+    padding-bottom: 50px;
+
+    /*animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;*/
 }
+
+
+
 
 
 /* who are we */
