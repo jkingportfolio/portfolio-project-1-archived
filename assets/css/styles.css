@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 body {
@@ -33,6 +33,10 @@ h1, h2 {
 
 #logo a {
     text-decoration: none;
+}
+
+#logo:hover {
+    color: red;
 }
 
 
@@ -68,6 +72,10 @@ a:hover {
     color: red;
 }
 
+header {
+    box-sizing: border-box;
+}
+
 
 
 
@@ -78,8 +86,7 @@ a:hover {
     height:600px;
     width:100%;
     overflow:hidden;
-    position: relative;
-      
+    position: relative;      
 }
 
 
@@ -93,15 +100,18 @@ a:hover {
 }
 
 .hero-image {
-    /*background: url("../images/hero-image.jpeg") no-repeat center center;*/
+    /*background: url("../images/hero-image.jpeg") no-repeat center center;
     display: block;
     height: 100%;
     width: 100%;
     margin: auto;
+    box-sizing: border-box;
 
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
+
+    object-fit: fill;
 }
 
 
@@ -111,28 +121,48 @@ a:hover {
 /* who are we */
 
 #who-are-we {
+    height: 600px;
+    width: 100%;
+    border: solid;
+    border-color:rgb(220, 190, 25);
     margin: auto;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* the experience */
 
 #the-experience {
+    height: 600px;
+    width: 100%;
+    border: solid;
+    border-color:rgb(220, 190, 25);
     margin: auto;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* come visit us */
 
 #visit-us {
+    height: 600px;
+    width: 100%;
+    border: solid;
+    border-color:rgb(220, 190, 25);
     margin: auto;
     text-align: center;
+    box-sizing: border-box;
 }
 
 
 /* footer */
 
 footer {
+    height: 200px;
+    width: 100%;
+    border: solid;
+    border-color:rgb(220, 190, 25);
     margin: auto;
     text-align: center;
+    box-sizing: border-box;
 }
