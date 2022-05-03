@@ -122,31 +122,52 @@ a:hover {
 /* who are we */
 
 #who-are-we {
-    height: 600px;
+    height: auto;
     width: 100%;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
+    padding: 50px;
+}
+
+#waw-text {
+    display: inline;
+    float: left;
+    clear: both;
+    overflow: auto;
+    width: 50%;
+}
+
+#waw-image {
+    float: right;
+    display: inline;
+    height: auto;
+    width: 50%;
+    object-fit: contain;
 }
 
 /* the experience */
 
 #the-experience {
+    clear: both;
     height: 600px;
     width: 100%;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
+    padding: 50px;
 }
 
 /* come visit us */
 
 #visit-us {
+    clear: both;
     height: 600px;
     width: 100%;
     margin: auto;
     text-align: center;
     box-sizing: border-box;
+    padding: 50px;
 }
 
 
@@ -155,7 +176,7 @@ a:hover {
 footer {
     height: 150px;
     text-align: center;
-    padding: 20px
+    top: 50;
 }
 
 #footer-left {
@@ -180,6 +201,9 @@ footer {
     list-style-type: none;
     font-size: 250%;
     padding: 10%;
+    font-family: 'Ms Madi', cursive;
+    font-weight: 300;
+    color: rgb(220, 190, 25);
 }
 
 
