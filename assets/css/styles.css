@@ -16,6 +16,14 @@ body {
 
 /* font sizing */
 
+h1 {
+    font-size: 100%;
+}
+
+h2 {
+    font-size: 300%;
+}
+
 /* headings and logo */
 
 header {
@@ -130,6 +138,7 @@ a:hover {
     padding: 50px;
 }
 
+
 #waw-text {
     display: inline;
     float: left;
@@ -183,13 +192,15 @@ footer {
     display: inline;
     float: left;
     top: 50%;
+    padding-left: 50px;
 
 }
 
 #footer-right {
     display: inline;
     float: right;
-    top: 50%;    
+    top: 50%;
+    padding-right: 50px;    
 }
 
 #footer-center {
