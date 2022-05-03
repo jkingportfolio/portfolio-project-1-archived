@@ -175,5 +175,9 @@ footer {
     margin: 0 auto;
 }
 
+#footer-socials {
+    list-style-type: none;
+}
+
 
 
