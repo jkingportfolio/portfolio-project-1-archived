@@ -149,9 +149,10 @@ a:hover {
 
 #waw-image {
     float: right;
+    padding-right: 10%;
     display: inline;
-    height: auto;
-    width: 50%;
+    height: 25%;
+    width: 25%;
     object-fit: contain;
 }
 
