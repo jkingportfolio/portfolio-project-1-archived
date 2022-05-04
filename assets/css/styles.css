@@ -216,12 +216,18 @@ a:hover {
     border: 3px solid rgb(220, 190, 25);
 }
 
-#w#experience-image-right{
+#experience-image-right{
     text-align: center;
     vertical-align: middle;
     width: 50%;
     height: auto;
-    border-radius: 50%;
+}
+
+#experience-image-left{
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    height: auto;
 }
 
 /* come visit us */
