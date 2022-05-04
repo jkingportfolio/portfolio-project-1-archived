@@ -14,6 +14,17 @@ body {
     color: rgb(220, 190, 25);
 }
 
+/* main page positioning */
+
+.main-positioning {
+    clear: both;
+    display: block;
+    text-align: center;
+    padding: 0.3rem;
+    margin: 0rem 0.5rem;
+
+}
+
 /* font sizing */
 
 h1 {
@@ -41,6 +52,7 @@ h1, h2 {
     color: rgb(220, 190, 25);
     float: left;
     padding-top: 10px;
+    margin: 0rem 0.5rem;
 }
 
 .logo a {
@@ -52,7 +64,6 @@ h1, h2 {
 }
 
 
-
 /* navigation links */
 
 #nav-menu {
@@ -62,7 +73,8 @@ h1, h2 {
     font-size: 30px;  
     list-style-type: none;
     float: right; 
-    padding-top: 25px;   
+    padding-top: 25px;
+    margin: 0rem 0.5rem;   
 }
 
 #nav-menu a {
@@ -129,41 +141,44 @@ a:hover {
 
 /* who are we */
 
-#who-are-we {
-    height: auto;
+#who-are-we {    
+    height: 600px;
     width: 100%;
-    margin: auto;
+    clear:both;
     text-align: center;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 30px;
+    border: 5px rgb(220, 190, 25) solid;
 }
 
 
-#waw-text {
-    display: inline;
-    float: left;
+#waw-text-container {
+    display: inline-block;
+    vertical-align: middle;
     clear: both;
-    overflow: auto;
-    width: 50%;
-    font-size: 2rem;
-    text-align: center;
-    margin: 0 auto
+    width: 45%;
+    height:fit-content;
+    border: 3px solid rgb(220, 190, 25);
 }
 
-#waw-text > p {
+#waw-text{
+    text-align: center;
     vertical-align: middle;
 }
 
-#waw-image {
-    float: right;
-    padding-right: 0;
-    display: inline;
-    height: auto;
-    width: 25vw;
-    object-fit: contain;
+#waw-image-container {
     clear: both;
-    border:5px rgb(220, 190, 25) solid;
-    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    border: 3px solid rgb(220, 190, 25);
+}
+
+#waw-image{
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
 }
 
 /* the experience */
