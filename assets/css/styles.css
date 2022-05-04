@@ -177,20 +177,51 @@ a:hover {
 #waw-image{
     text-align: center;
     vertical-align: middle;
-    width: 100%;
+    width: 50%;
     height: auto;
+    border-radius: 50%;
 }
 
 /* the experience */
 
-#the-experience {
-    clear: both;
+.the-experience {
     height: 600px;
     width: 100%;
-    margin: auto;
+    clear:both;
     text-align: center;
     box-sizing: border-box;
-    padding: 50px;
+    padding: 30px;
+    border: 5px rgb(220, 190, 25) solid;
+}
+
+.experience-container-left {
+    display: inline-block;
+    vertical-align: middle;
+    clear: both;
+    width: 45%;
+    height:fit-content;
+    border: 3px solid rgb(220, 190, 25);
+}
+
+.experience-text-left{
+    text-align: center;
+    vertical-align: middle;
+}
+
+.experience-container-right {
+    clear: both;
+    display: inline-block;
+    vertical-align: middle;
+    width: 45%;
+    border: 3px solid rgb(220, 190, 25);
+}
+
+#w#experience-image-right{
+    text-align: center;
+    vertical-align: middle;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
 }
 
 /* come visit us */
@@ -204,6 +235,7 @@ a:hover {
     box-sizing: border-box;
     padding: 50px;
 }
+
 
 
 /* footer */
