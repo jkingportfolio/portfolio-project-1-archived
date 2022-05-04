@@ -221,14 +221,27 @@ a:hover {
 
 /* come visit us */
 
-#visit-us {
+#visit-us-container {
+    display: flex; 
+    justify-content: space-around;
+}
+
+#opening-times-container {
     clear: both;
-    height: 600px;
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#map {
+    clear: both;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#address-container {
+    clear: both;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -254,6 +267,7 @@ footer {
 #footer-center {
     display: inline-block;
     width: 32%;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #footer-right {
